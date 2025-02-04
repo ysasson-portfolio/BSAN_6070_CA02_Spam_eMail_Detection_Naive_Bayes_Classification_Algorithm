@@ -17,7 +17,7 @@
 
 ## Data Set and the Source
 
-###
+### The data set used for this data has two elements in it. These folders are the test emails and the training emails. The data can be found by using the following link (https://drive.google.com/file/d/15Aeig6yJ8C6Qqm5dEtko_SYz9e0DKJDq/view?usp=sharing). It will come zipped at first. Once it is extracted, then the data can be used in the code. This data set was provided by Professor Arin Brahma.
 
 ## Source Code Acknowledgement
 
@@ -31,9 +31,9 @@
 ## Installation
 
 ### In order to run this code you need to make sure the following:
-* Download the .zip folder called "DATA" with the emails sorted (test_mails and train_mails)
-* Extract all the information from the "DATA" .zip folder
+* Download the .zip folder called "Data" with the emails sorted (test_mails and train_mails)
+* Extract all the information from the "Data" .zip folder
 * Download the source code file
-* Move the file from the "Downloads" folder on your computer to the extracted "DATA" folder.
+* Move the file from the "Downloads" folder on your computer to the extracted "Data" folder.
 * In the 4th code block, make sure to change the directory strings to match the variable to the right folder
 * Make sure that you install all of the necessary libraries and import them at the begining of the code. 
