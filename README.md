@@ -2,7 +2,7 @@
 
 ## Description
 
-### This is a code that utilizing a Naive Bayes algorithm to classify whether an email is considered spam or not. Utilizing a supervised machine learning algorithm, the emails will be classified based on the number of times uncommon words occur in each email. The model will be trained on 702 emails equally divided into spam and non-spam categories. After that is done, the model will be tested by classifying 260 emails into the right category. 
+### This is a code that utilizing a Naive Bayes algorithm to classify whether an email is considered spam or not. Utilizing a supervised machine learning algorithm, the emails will be classified based on the number of times uncommon words occur in each email. The model will be trained on 702 emails equally divided into spam and non-spam categories. The algorithm does this by breaking down each individual email into individual words and will begin to break it down based on the words in the email. Once the words list is compiled, the function will eliminate all words that are not alpha-numeric and are one letter. The function will then begin to build a dictionary that is made up of 3000 of the most common words. It will then create a matrix of the individual features (words) and the label that email has (1 for spam, 0 for not spam). These features are then used to help build and train the model which will be used to classify 260 emails into the right category. 
 
 ## Necessary Libraries and Versions
 
